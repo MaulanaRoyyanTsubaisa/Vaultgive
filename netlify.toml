@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_THIRDWEB_API_KEY = "34ab737fd8b938ea909a36225ea4880f"
+  VITE_RPC_URL = "https://rpc.ankr.com/eth_sepolia/75b8d2e1e12651acb901b9b6ed825ec67ed87cc57d12fcaacd299e51b5aba16f"
+
+[dev]
+  command = "npm run dev"
+  port = 3000
